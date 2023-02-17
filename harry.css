@@ -1,0 +1,110 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    background-image:url(umer.jpg);
+    background-size: cover;
+    height: 700px;
+
+    
+    
+}
+.left{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+
+    display: inline-block;
+    border:  2px solid red;
+}
+.left img{
+    width: 130px;
+    margin: -28px -2px;
+    
+}
+.mid{
+    position: sticky;
+    display: block;
+    width: 43%;
+    padding: 2px;
+    margin: 20px auto;
+    /*border:  2px solid red;*/
+    
+
+}
+.right{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    display: inline-block;
+    /*border: 2px solid red;*/
+}
+.navbar{
+    display: inline-block;
+    
+}
+.navbar li{
+    display: inline-block;
+    
+    font-size: 18px;
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    margin: 3px;
+    padding: 2px;
+}
+.navbar li a:hover, .navbar li a.active{
+  text-decoration: underline;
+  color: grey;
+}
+.btn{
+    position: sticky;
+    font-family: 'Roboto Mono', monospace;
+    margin: 18px 9px;
+    background-color: black;
+    color: white;
+    padding: 2px 3px;
+    /*border: 2px solid grey;*/
+    border-radius: 10px;
+    font size: 20px;
+    cursor:pointer;
+
+}
+.btn:hover{
+   
+    background-color: grey;
+}
+.container{
+    /*border: 2px solid white;*/
+    margin: 146px 60px;
+    padding:  75px;
+    width: 70%;
+   /* border-radius: 28px;*/
+
+}
+.form-group{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    display: block;
+    width: 177px;
+    padding: 4px;
+    border: 0px solid white;
+    margin: 9px  2px auto;
+    font-size: 6px;
+    border-radius: 88px
+}
+.container h1{
+    font-size: 23px;
+    width: 570px;
+}
+.container button{
+    display: block;
+    width: 20%;
+    margin: 9px  2px auto;
+}
+
+
+
